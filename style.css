@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b7dda;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e3f2fd;
+    font-weight: 700;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.text-red-600 {
+    color: #dc2626;
+}
+
+.text-green-600 {
+    color: #16a34a;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.max-w-sm {
+    max-width: 24rem;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.max-w-3xl {
+    max-width: 48rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}
+
+.shadow {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Simple responsive fix */
+@media (max-width: 600px) {
+    .max-w-sm, .max-w-md, .max-w-3xl {
+        max-width: 90%;
+    }
+}
